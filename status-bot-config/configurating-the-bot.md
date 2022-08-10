@@ -102,26 +102,3 @@
         "IP5":"yourip.com"
     },
 ```
-
-### Lavalink Configuration&#x20;
-
-* **host** - Lavalink Host IP
-* **port** - The Port of the Lavalink
-* **password** - Password of the Lavalink Server
-* **retryDelay** - The Delay to connect again when connection fails
-* **secure** - Secure server for Lavalink or not
-
-```
-"lavalink": {
-        "nodes": [
-            {
-                "host": "lavalink.oops.wtf",
-                "port": 443,
-                "password": "www.freelavalink.ga",
-                "retryDelay": 3000,
-                "secure": true
-            }
-        ]
-    }
-}
-```
